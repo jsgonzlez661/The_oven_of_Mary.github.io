@@ -1,0 +1,103 @@
+body
+{
+    background-color: #1f1f1f;
+    margin:0;
+}
+
+/* ------------------- */
+/* Estilos del header */
+/* ------------------- */
+
+header
+{
+    background-color:#4c4c4c;
+    width: 100%;
+    margin:0;
+    position: fixed;
+    z-index: 1;
+    min-height: 56px;
+}
+
+.botonHeader
+{
+    border: 1px;
+    border-radius: 6px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #4c4c4c;
+    color: white;
+    padding: 10px 15px 10px 15px;
+    background-color: transparent;
+    margin: 5px;
+    font-size: 15px;
+    width: 100px;
+    text-align: center;
+    float: right;
+}
+
+.botonHeader:hover
+{
+    border-color: white;
+    /* background-color: grey; */
+    cursor: pointer;
+}
+
+.botonHeader:focus
+{
+    outline: none;
+}
+
+.botonHeader:active
+{
+    background-color: grey;
+}
+
+.botoneraHeader
+{
+    float: right;
+    position: relative;
+    top: 25%;
+    right: 10px;
+}
+
+/* ------------------- */
+/* Estilos del cuerpo  */
+/* ------------------- */
+
+.divContenedor
+{
+    position: absolute; 
+    margin-top: 80px;
+    margin-bottom: 25px;
+    left: 2.5%;
+    width: 95%;
+    background-color: #2f3840;
+    
+}
+.divIndex
+{
+    background-color: red;
+    width: 95%;
+    margin: 2.5%;
+    height: 450px;
+    
+}
+
+
+/* ------------------- */
+/* Estilos del imágenes*/
+/* ------------------- */
+
+#btnMenu
+{
+    top: 5px;
+    left: 5px;
+}
+
+.imagen
+{
+    width: 48px;
+    height: 48px;
+}
+
+.imagen:hover{cursor: pointer;}

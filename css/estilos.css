@@ -1,0 +1,96 @@
+/*----------------------------------------*/
+/*         Fuentes empleadas              */
+/*----------------------------------------*/
+
+@font-face {
+  font-family: Hisyam;
+  src: url("vendor/font/Hisyam Script.otf");
+}
+
+@font-face {
+  font-family: Beautiful;
+  src: url("vendor/font/Beautiful Script.ttf");
+}
+
+/*----------------------------------------*/
+/*         Encabezado                     */
+/*----------------------------------------*/
+
+.imagen-bg {
+  background-image: url(pan2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.texto-config {
+  color: white;
+}
+h1 {
+  font-size: 50pt;
+  text-shadow: 2px 2px #000000;
+  font-family: Hisyam, Arial, Helvetica, sans-serif;
+}
+h2 {
+  font-size: 15pt;
+  text-shadow: 1px 1px #000000;
+}
+
+/*----------------------------------------*/
+/*         Barra de Navegación            */
+/*----------------------------------------*/
+
+.color_text {
+  color: white;
+}
+
+.boton-busqueda {
+  width: 24px;
+}
+
+/*----------------------------------------*/
+/*         Seccion de articulos           */
+/*----------------------------------------*/
+
+h3 {
+  font-size: 30pt;
+  font-family: Hisyam, Arial, Helvetica, sans-serif;
+}
+.nombre_receta {
+  font-size: 20pt;
+}
+
+.border-img {
+  border-bottom: 5px solid;
+}
+
+/*----------------------------------------*/
+/*         Barra derecha                  */
+/*----------------------------------------*/
+
+.redes-img img {
+  width: 15%;
+}
+
+.lista-config {
+  list-style: none;
+}
+
+.lista-config > li {
+  display: inline;
+}
+
+.avatar {
+  width: 45%;
+}
+
+.texto {
+  list-style: none;
+  margin: 0px;
+}
+
+.actualidad {
+  font-size: 20pt;
+}
+
+.sombra_recetas {
+  text-shadow: 2px 2px #000000;
+}
